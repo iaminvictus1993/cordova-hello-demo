@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="JPushPlugin">
+        <param name="android-package" value="cn.jiguang.cordova.push.JPushPlugin" />
+    </feature>
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="platforms/android/res/img/icon/myIcon.png" />
+    <icon density="mdpi" src="platforms/android/res/img/icon/myIcon.png" />
+    <icon density="hdpi" src="platforms/android/res/img/icon/myIcon.png" />
+    <icon density="xhdpi" src="platforms/android/res/img/icon/myIcon.png" />
+    <icon density="xxhdpi" src="platforms/android/res/img/icon/myIcon.png" />
+    <splash density="land-hdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="land-ldpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="land-mdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="land-xhdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="port-hdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="port-ldpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="port-mdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <splash density="port-xhdpi" src="platforms/android/res/img/screen/welcome.png" />
+    <name>天健金管demo</name>
+    <description>
+        A sample Apache Cordova application that platforms/android/responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
